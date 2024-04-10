@@ -1,0 +1,109 @@
+body {
+  background: rgb(245, 245, 245);
+  color: #5D6873;
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+h1, h2 {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+  color: #0056B2;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h2 {
+  color: #1DA1E0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #373F47;
+}
+
+a {
+  text-decoration: none;
+  color: #0056B2;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+a:hover {
+  color: #4A86E8;
+}
+
+#comephoto {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media  (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+
+}
+@media  (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+.card-white {
+  background-color:white ;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color:#4A86E8 ;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color:#0056B2 ;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color:#4A86E8 ;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color:#0056B2 ;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
